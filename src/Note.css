@@ -1,0 +1,188 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: "Josefin Sans", "Arial Narrow", Arial, sans-serif;
+}
+ 
+.header {
+  width: 100%;
+  line-height: 100px;
+  background: #f5ba13;
+  display: flex;
+   justify-content: start;
+  align-items: center;
+  padding-left: 50px;
+  color: white;
+  box-shadow: 5px 3px 15px -5px rgba(0, 0, 0, 0.3);
+}
+
+.main_note {
+  width: 500px;
+   padding: 15px 10px 5px 10px;
+   margin: 20px auto;
+}
+
+.main_note h1 {
+  color: #34495e;
+}
+
+.main_note p {
+   color: brown;
+}
+
+form {
+  min-height: 50px;
+  color: #ecf0f1;
+  padding: 15px 10px 5px 10px;
+   box-shadow: 5px 5px  15px -5px rgba(0, 0, 0, 0.3);
+   border-radius: 10px;
+   position: relative;
+}
+
+textarea {
+   width: 100%;
+   line-height: 30px;
+    background: transparent;
+   border: none;
+   outline: none;
+   font-size: 1rem;
+   margin: 10px 0;
+}
+
+.MinButton-root {
+   width: 30px;
+   height: 50px;
+   position: absolute;
+    bottom: -28px;
+     left: 400px;
+    cursor: pointer;
+    background-color: #fff !important;
+   box-shadow: 5px 5px  15px -5px rgba(0, 0, 0, 0.3);
+   border-radius: 50% !important;
+}
+
+.MinButton-root .plus_sign {
+  font-size: 50% !important;
+   font-weight: 900;
+    cursor: pointer;
+    background: transparent;
+    color: #f4b400;
+    z-index: 222;
+}
+
+.MinButton-root:hover {
+   background-color: #f4b400 !important;
+}
+
+.MinButton-root:hover .plus_sign {
+   background: transparent;
+    color: #fff;
+}
+
+.note {
+  background: #fff;
+  border-radius: 7px;
+  box-shadow: 0 2px 5px #ccc;
+  padding: 10px;
+  width: 270px;
+  margin: 16px;
+  float: left;
+  height: auto;
+}
+
+.note h1 {
+  font-size: 1.1em;
+  margin-bottom: 6px;
+}
+
+.note p {
+  font-size: 1.1em;
+  margin-bottom: 10px;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
+
+.note .btn {
+  float: right;
+  position: relative;
+  marin-right: 10px;
+  color: #f4b400;
+  border: none;
+ width: 50px;
+  height: 50px;
+  cursor: pointer;
+   background: transparent;
+    box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.3); 
+    cursor: pointer;
+   outline: none;
+  border-radius: 50%;
+  top: -10px;
+}
+
+.deleteIcon {
+  width: 0.7em;
+  height: 0.7em;
+}
+
+.note .btn:hover {
+  background-color: #f5ba13;
+}
+
+.note .btn:hover .deleteIcon {
+  color: #fff;
+}
+
+img {
+  text-align: left;
+}
+
+footer {
+  width: 100%;
+  bottom: 1px;
+  text-align: center;
+  margin: 5px;
+  position: fixed;
+  z-index: -1;
+}
+
+input {
+   width: 100%;
+   line-height: 30px;
+   background: transparent;
+   border: none;
+   outline: none;
+   font-size: 1.5rem;
+   margin: 10px 0;
+    font-weight: bold; 
+}
+
+#btn {
+   min-height: 40px;
+   width: 40px;
+   border-radius: 30%;
+   border-color: transparent;
+   background-color: orange;
+   color: #fff;
+   font-size: 40px;
+   border: none;
+   outline: none;
+   box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.3); 
+   position: relative;
+   left: 404px;
+   top: 27px;
+}
+
+#btn:hover {
+ background-color: lightgreen;
+}
+
+h6 {
+  position: relative;
+  top: 30px;
+}
+
+hr {
+ position: relative;
+  top: 20px; 
+}
